@@ -1,0 +1,1851 @@
+Index: ../../../interest.html
+===================================================================
+diff --git a/../../../interest.html b/../../../interest.html
+deleted file mode 100644
+--- a/../../../interest.html	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,189 +0,0 @@
+-<!DOCTYPE html>
+-<html>
+-  <head>
+-    <meta charset="utf-8">
+-    <meta name="viewport" content="width=device-width">
+-    <title>Resume</title>
+-		    <meta charset="UTF-8">
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+-    <link rel="stylesheet" href="style.css" type="text/css"/>
+-	
+-  </head>
+-  <body>
+-		<header>
+-			<div class="row no-gutters">
+-				<a href="index.html" class="col-md-4 logo">	
+-				</a>
+-				<div class="col-md-8">
+-					<div class="row no-gutters bg-color-name-title">
+-							<div class="col heading">
+-								<h1 class="name">Deborah Baddipudi</h1>
+-								<h2 class="title">Full Stack QA</h2>
+-							</div>
+-					</div>
+-					<div class="row no-gutters">
+-						<div class="col">
+-							<ul id="nav" class="list-inline menucontainer">
+-								<!-- there will be 2 onlist by defualt for mobil and 4 on anything higer than medium-->
+-								<li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
+-									<a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+-								</li>
+-								<li class="col-6 col-sm-2 ui-menu-color-resume list-inline-item menuitem">
+-									<a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+-								</li>
+-							 <li class="col-6 col-sm-2 ui-menu-color-contact list-inline-item menuitem">
+-                  <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-address-book"></i><span>Contact</span></a>
+-                </li>
+-									<li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
+-									<a href="interest.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interest</span></a>
+-								</li>
+-							 <li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem">
+-                  <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"></i><span>GitHub</span></a>
+-                </li>
+-								<li class="col-6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
+-									<a href="docs/CV.pdf"  target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+-								</li>
+-							</ul>
+-						</div>
+-					</div>
+-				</div>
+-			</div>
+-		</header>
+-		<section>
+-        <div class="row">
+-            <div class="col-md-4 bg-color-conferences section-column">
+-                <div class="row">
+-                    <div class="col-md-12">
+-                        <h3 class="section-heading uppercase">Conferences and Meetups attended</h3>
+-                    </div>
+-                </div>
+-                <div id="map"></div>
+-            </div>
+-            <div class="col-md-8 bg-color-groups section-column">
+-                <div class="row">
+-                    <div class="col-md-12">
+-                        <h3 class="section-heading uppercase"> Some of my Previous Work </h3>
+-                    </div>
+-                </div>
+-                <div class="row">
+-                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+-                        <div class="row">
+-                            <div class="col-xs-2 col-sm-2  col-md-2">
+-                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
+-                            </div>
+-                            <div class="col-xs-10 col-sm-10">
+-                                <h4 class="three-reasons-heading uppercase">Slash Networks, MindQ and Imbus Corporation<h5>As a Trainer</h5></h4>
+-                                <p>
+-                                    As a certified British Computer Society ISTQB trainer, Trained for ISTQB Foundation level , Agile Extention, Test Manager.
+-                                    <a href="http://www.slashnetworks.in/training/testing" target="_blank">Slash Networks</a>
+-                                </p>
+-                            </div>
+-                        </div>
+-                    </div>
+-                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+-                        <div class="row">
+-                            <div class="col-xs-2 col-sm-2  col-md-2">
+-                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
+-                            </div>
+-                            <div class="col-xs-10 col-sm-10">
+-                                <h4 class="three-reasons-heading uppercase">Virtusa Polaris <h5>As an Software Consultant</h5></h4>
+-                                <p>
+-                                    Polaris, Working with BFSI clients over the years, the company has developed very deep consulting, design and engineering skills in the highly specialized areas of digitization and big data. Attended training on Corportate Banking - Liquidity Management and Anit Money laundering domain knowledge needed for software testers inorder to test the Bankingsoftware prior to release.
+-                                    <a href="https://www.virtusa.com/" target="_blank">Virtusa Polaris</a>
+-                                </p>
+-                            </div>
+-                        </div>
+-                    </div>
+-                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+-                        <div class="row">
+-                            <div class="col-xs-2 col-sm-2  col-md-2">
+-                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
+-                            </div>
+-                            <div class="col-xs-10 col-sm-10">
+-                                <h4 class="three-reasons-heading uppercase">Code Instuitue - Full Stack Developer <h5>As a student in collabration with Canadian Business collage</h5></h4>
+-                                <p>
+-                                    University Credit-Rated Bootcamp and trusted education partner to Universities. Helps you learn most cutting-edge skills and programming languages alongside your specialization in e-Commerce.
+-                                    <a href="https://codeinstitute.net/" target="_blank">Code Instuitute</a>
+-                                </p>
+-                            </div>
+-                        </div>
+-                    </div>
+-                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+-                        <div class="row">
+-                            <div class="col-xs-2 col-sm-2  col-md-2">
+-                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
+-                            </div>
+-                            <div class="col-xs-10 col-sm-10">
+-                                <h4 class="three-reasons-heading uppercase">Open Text Corporation <h5>Senior Quality Assurance Developer</h5></h4>
+-                                <p>
+-                                    Primarily responsible for automating UI , API and AWS services, writing reusable scripts/tools that help improve test coverage and efficiency.
+-                                    <a href="https://www.opentext.com/" target="_blank">OpenText</a>
+-                                </p>
+-                            </div>
+-                        </div>
+-                    </div>
+-                </div>
+-            </div>
+-        </div>
+-    </section>
+-		<footer class="container-fluid">
+-			<div id="footer-details" class="row">
+-				<div class="col-sm-4">
+-					<h5 class="uppercase general-sub">About</h5>
+-					<p class="inline-block"> Full Stack QA with Front-End Development skills in everything from UI / API test automation, testing highly integrated applications hosted on AWS to Designing BDD test</p>
+-				</div>
+-				<div class="col-sm-4">
+-						<h5 class="uppercase general-sub">Download</h5>
+-							<p class="inline-block"> Need a printable version on CV? Download here.<a href="docs/CV.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i><span class="sr-only">Download link.</span></a></p>
+-				</div>
+-				<div class="col-sm-4">
+-						<h5 class="uppercase general-sub">Social</h5>
+-						<ul class="list-inline social-links">
+-							<li class="list-inline-item">
+-								<a target="_blank" href="#">
+-									<i class="fa fa-facebook" aria-hidden="true"></i>
+-									<span class="sr-only">FaceBook</span>
+-								</a>
+-							</li>
+-							 <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+-                            <span class="sr-only">Twitter</span>
+-                        </a>
+-                </li>
+-															<li class="list-inline-item">
+-								<a target="_blank" href="#">
+-									<i class="fa fa-linkedin" aria-hidden="true"></i>
+-									<span class="sr-only">Linkedin</span>
+-								</a>
+-							</li>
+-							 <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+-                            <span class="sr-only">Pinterest</span>
+-                        </a>
+-                </li>
+-								<li class="list-inline-item">
+-									<a target="_blank" href="#">
+-										<i class="fa fa-instagram" aria-hidden="true"></i>
+-										<span class="sr-only">Instagram</span>
+-								</a>
+-							</li>
+-							<li class="list-inline-item">
+-									<a target="_blank" href="#">
+-										<i class="fa fa-youtube" aria-hidden="true"></i>
+-										<span class="sr-only">YouTube</span>
+-								</a>
+-							</li>
+-						</ul>
+-				</div>
+-			</div>
+-		</footer>
+-	  <script src="js/maps.js"></script>
+-		<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCplBZ7saev3abj_d5Ay4LGwueQMOY-wOM&callback=initMap"></script>
+-
+-  </body>
+-</html>
+\ No newline at end of file
+Index: ../../../contact.html
+===================================================================
+diff --git a/../../../contact.html b/../../../contact.html
+deleted file mode 100644
+--- a/../../../contact.html	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,149 +0,0 @@
+-<!DOCTYPE html>
+-<html>
+-  <head>
+-    <meta charset="utf-8">
+-    <meta name="viewport" content="width=device-width">
+-    <title>Resume</title>
+-	 <meta charset="UTF-8">
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+-    <link rel="stylesheet" href="style.css" type="text/css" />
+-  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+-    <script type="text/javascript">
+-        (function() {
+-            emailjs.init("user_kAvWvtrOtx8rIEZBPIf4Y");
+-        })();
+-    </script>
+-    </head>
+-  <body>
+-	<header>
+-			<div class="row no-gutters">
+-				<a href="index.html" class="col-md-4 logo">	
+-				</a>
+-				<div class="col-md-8">
+-					<div class="row no-gutters bg-color-name-title">
+-							<div class="col heading">
+-								<h1 class="name">Deborah Baddipudi</h1>
+-								<h2 class="title">Full Stack QA</h2>
+-							</div>
+-					</div>
+-					<div class="row no-gutters">
+-						<div class="col">
+-							<ul id="nav" class="list-inline menucontainer">
+-								<!-- there will be 2 onlist by defualt for mobil and 4 on anything higer than medium-->
+-								<li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
+-									<a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+-								</li>
+-								<li class="col-6 col-sm-2 ui-menu-color-resume list-inline-item menuitem">
+-									<a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+-								</li>
+-							 <li class="col-6 col-sm-2 ui-menu-color-contact list-inline-item menuitem">
+-                  <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-address-book"></i><span>Contact</span></a>
+-                </li>
+-									<li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
+-									<a href="interest.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interest</span></a>
+-								</li>
+-							 <li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem">
+-                  <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"></i><span>GitHub</span></a>
+-                </li>
+-								<li class="col-6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
+-									<a href="docs/CV.pdf"  target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+-								</li>
+-							</ul>
+-						</div>
+-					</div>
+-				</div>
+-			</div>
+-		</header>
+-	 <section class="container-fluid">
+-        <div class="row center-form bg-color-contact">
+-            <div>
+-                <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+-                <h5 class="uppercase">Let's work together</h5>
+-            </div>
+-        </div>
+-        <div class="row bg-color-contact">
+-            <div class="center-form container fluid">
+-                <form onsubmit="return sendMail(this);">
+-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+-                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+-                </form>
+-            </div>
+-        </div>
+-    </section>
+-		<footer class="container-fluid">
+-			<div id="footer-details" class="row">
+-				<div class="col-sm-4">
+-					<h5 class="uppercase general-sub">About</h5>
+-					<p class="inline-block"> Full Stack QA with Front-End Development skills in everything from UI / API test automation, testing highly integrated applications hosted on AWS to Designing BDD test</p>
+-				</div>
+-				<div class="col-sm-4">
+-						<h5 class="uppercase general-sub">Download</h5>
+-							<p class="inline-block"> Need a printable version on CV? Download here.<a href="docs/CV.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i><span class="sr-only">Download link.</span></a></p>
+-				</div>
+-				<div class="col-sm-4">
+-						<h5 class="uppercase general-sub">Social</h5>
+-						<ul class="list-inline social-links">
+-							<li class="list-inline-item">
+-								<a target="_blank" href="#">
+-									<i class="fa fa-facebook" aria-hidden="true"></i>
+-									<span class="sr-only">FaceBook</span>
+-								</a>
+-							</li>
+-							 <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+-                            <span class="sr-only">Twitter</span>
+-                        </a>
+-                </li>
+-															<li class="list-inline-item">
+-								<a target="_blank" href="#">
+-									<i class="fa fa-linkedin" aria-hidden="true"></i>
+-									<span class="sr-only">Linkedin</span>
+-								</a>
+-							</li>
+-							 <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+-                            <span class="sr-only">Pinterest</span>
+-                        </a>
+-                </li>
+-								<li class="list-inline-item">
+-									<a target="_blank" href="#">
+-										<i class="fa fa-instagram" aria-hidden="true"></i>
+-										<span class="sr-only">Instagram</span>
+-								</a>
+-							</li>
+-							<li class="list-inline-item">
+-									<a target="_blank" href="#">
+-										<i class="fa fa-youtube" aria-hidden="true"></i>
+-										<span class="sr-only">YouTube</span>
+-								</a>
+-							</li>
+-						</ul>
+-				</div>
+-			</div>
+-		</footer>
+-    <script>
+-    function sendMail(contactForm) {
+-    emailjs.send("gmail", "deborah", {
+-        "from_name": contactForm.name.value,
+-        "from_email": contactForm.emailaddress.value,
+-        "project_request": contactForm.projectsummary.value
+-    })
+-    .then(
+-        function(response) {
+-            console.log("SUCCESS", response);
+-        },
+-        function(error) {
+-            console.log("FAILED", error);
+-        }
+-    );
+-    return false;  // To block from loading a new page
+-}
+-    </script>
+-  </body>
+-</html>
+Index: ../../../js/maps.js
+===================================================================
+diff --git a/../../../js/maps.js b/../../../js/maps.js
+deleted file mode 100644
+--- a/../../../js/maps.js	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,39 +0,0 @@
+-
+-function initMap() {
+-            var map = new google.maps.Map(document.getElementById("map"), {
+-                zoom: 3,
+-                center: {
+-                    lat: 21.146633,
+-                    lng: 79.088860
+-                }
+-            });
+-
+-            var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+-
+-            var locations = [{
+-                lat: 17.443510,
+-                lng: 78.441020
+-            }, {
+-                lat: 43.652700,
+-                lng: -79.511280
+-            }, {
+-                lat: 17.440580,
+-                lng: 78.378906
+-            },
+-						{
+-							lat: 17.42619655,
+-							lng: 78.33891278466346
+-						},
+-					];
+-
+-            var markers = locations.map(function(location, i) {
+-                return new google.maps.Marker({
+-                    position: location,
+-                    label: labels[i % labels.length]
+-                });
+-            });
+-
+-            var markerCluster = new MarkerClusterer(map, markers, {
+-                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+-            });
+-        }
+Index: ../../../resume.html
+===================================================================
+diff --git a/../../../resume.html b/../../../resume.html
+deleted file mode 100644
+--- a/../../../resume.html	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,306 +0,0 @@
+-<!DOCTYPE html>
+-<html>
+-  <head>
+-    <meta charset="utf-8">
+-    <meta name="viewport" content="width=device-width">
+-    <title>Resume</title>
+-		    <meta charset="UTF-8">
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+-    <link rel="stylesheet" href="style.css" type="text/css"/>
+-	
+-  </head>
+-  <body>
+-	<header>
+-			<div class="row no-gutters">
+-				<a href="index.html" class="col-md-4 logo">	
+-				</a>
+-				<div class="col-md-8">
+-					<div class="row no-gutters bg-color-name-title">
+-							<div class="col heading">
+-								<h1 class="name">Deborah Baddipudi</h1>
+-								<h2 class="title">Full Stack QA</h2>
+-							</div>
+-					</div>
+-					<div class="row no-gutters">
+-						<div class="col">
+-							<ul id="nav" class="list-inline menucontainer">
+-								<!-- there will be 2 onlist by defualt for mobil and 4 on anything higer than medium-->
+-								<li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
+-									<a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+-								</li>
+-								<li class="col-6 col-sm-2 ui-menu-color-resume list-inline-item menuitem">
+-									<a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+-								</li>
+-							 <li class="col-6 col-sm-2 ui-menu-color-contact list-inline-item menuitem">
+-                  <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-address-book"></i><span>Contact</span></a>
+-                </li>
+-									<li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
+-									<a href="interest.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interest</span></a>
+-								</li>
+-							 <li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem">
+-                  <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"></i><span>GitHub</span></a>
+-                </li>
+-								<li class="col-6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
+-									<a href="docs/CV.pdf"  target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+-								</li>
+-							</ul>
+-						</div>
+-					</div>
+-				</div>
+-			</div>
+-		</header>
+-    <section class="container-fluid">
+-        <div class="row">
+-            <div class="col-md-4 bg-color-work-history section-column">
+-                <div class="row">
+-                    <div class="col-12">
+-                        <h3 class="history-heading uppercase">
+-                            Work History
+-                        </h3>
+-                    </div>
+-                </div>
+-                <div class="history-items">
+-		    <div class="timeline-item" data-dates="10/2010 - 09/2011">
+-                        <h4>Valtech India</h4>
+-			<p>Associate Software Engineer</p>
+-                    </div>
+-                    <div class="timeline-item" data-dates="11/2011 - 09/2015">
+-                        <h4>BSC (British computer society)</h4>
+-                        <p>ISTQB Accredited Software Testing Content Developer and Trainer</p>
+-                    </div>
+-                    <div class="timeline-item" data-dates="09/2015 - 01/2017">
+-                        <h4>Polaris Financial Services Ltd, India</h4>
+-                        <p>Now merged to Virtusa Pvt Ltd</p>
+-                        <p>Associate Software Consultant</p>
+-                    </div>
+-                    <div class="timeline-item" data-dates="02/2017 - 02/2019">
+-                        <h4>LincSoft Private limited</h4>
+-                        <p>Senior Test Engineer</p>
+-                    </div>
+-                     <div class="timeline-item" data-dates="03/2020 - 10/2020">
+-                        <h4>Code Instuitute partnered with Canadian Business Collage</h4>
+-                        <p>Student - FullStack Software development</p>
+-                    </div>
+-                    <div class="timeline-item" data-dates="01/2021 - Present">
+-                        <h4>Open Text Corporation, Canada</h4>
+-                        <p>Lead Quality Assurance Developer</p>
+-                    </div>
+-                </div>
+-            </div>
+-            <div class="col-md-8 bg-color-three-reasons section-column">
+-                <div class="row">
+-                    <div class="col">
+-                        <h3 class="section-heading uppercase">My Skills</h3>
+-                    </div>
+-                </div>
+-                 <div class="row">    
+-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+-                        <div class="row">
+-                            <div class="col-2">
+-                                <i class="three-reasons-icon fas fa-user-check" aria-hidden="true"></i>
+-                            </div>
+-                            <div class="col-10">
+-                                <h4 class="three-reasons-heading uppercase">UI Testing</h4>
+-                                <p>
+-                                    I'm skilled in integrating BDD test with UI testing tools like Selenium with Java/C#/Python , Protractor. and also Test management activities including Test Planning, Estimation, Monitoring and Reporting.
+-                                </p>
+-                            </div>
+-                        </div>
+-                    </div>
+-                   
+-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+-                        <div class="row">
+-                            <div class="col-2">
+-                                <i class="three-reasons-icon fas fa-chalkboard-teacher" aria-hidden="true"></i>
+-                            </div>
+-                            <div class="col-10">
+-                                <h4 class="three-reasons-heading uppercase">Backend Testing</h4>
+-                                <p>
+-                                   HandOns with API manual and BDD integrated with RestSharp / Rest Assured leveraging the stable interface to accelerate the testing and increase efficiency.Regularly work with tools on ELK stack including Elastic search and Kibana.MicrosoftSQL and MongoDB.
+-                                </p>
+-                            </div>
+-                        </div>
+-                    </div>
+-                  </div>
+-                <div class="row">
+-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+-                        <div class="row">
+-                            <div class="col-2">
+-		              <i class="three-reasons-icon fas fa-cloud" aria-hidden="true"></i>
+-                            </div>
+-                            <div class="col-10">
+-                                <h4 class="three-reasons-heading uppercase">HandsOn testing applicaitons hosted on AWS </h4>
+-                                <p>
+-                                   AWS certified Solutions Architech familier with various AWS Services like EC2 , SQS , S3 , Kinesis Data streams ,DDB, Lambda
+-                                </p>
+-                            </div>
+-                        </div>
+-                    </div>
+-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+-                        <div class="row">
+-                            <div class="col-2">
+-                                <i class="three-reasons-icon fa fa-gears" aria-hidden="true"></i>
+-                            </div>
+-                            <div class="col-10">
+-                                <h4 class="three-reasons-heading uppercase">Performace Testing and CI/CD Tools</h4>
+-                                <p>
+-                                    Comfortable using Jmeter for Performance testing. familier with the Build deployment process using TeamCity.
+-                                </p>
+-                            </div>
+-                        </div>
+-                    </div>
+-                </div>
+- 
+-                <div class="row progress-section">
+-                    <div class="col">
+-                        <div class="progress">
+-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+-                                <span class="sr-only">95% complete</span>
+-                            </div>
+-                            <span class="progress-type">Manual Testing</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+-                                <span class="sr-only">90% complete</span>
+-                            </div>
+-                            <span class="progress-type">Test management Skills</span>
+-                        </div>
+-                         <div class="progress">
+-                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+-                                <span class="sr-only">80% complete</span>
+-                            </div>
+-                            <span class="progress-type">UI Test Automation</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+-                                <span class="sr-only">85% complete</span>
+-                            </div>
+-                            <span class="progress-type">AGILE Scrum/ Jira</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+-                                <span class="sr-only">90% complete</span>
+-                            </div>
+-                            <span class="progress-type">API Testing</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+-                                <span class="sr-only">95% complete</span>
+-                            </div>
+-                            <span class="progress-type">HTML5 /CSS3/Bootstrap</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
+-                                <span class="sr-only">70% complete</span>
+-                            </div>
+-                            <span class="progress-type">JavaScript / jQuery</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+-                                <span class="sr-only">80% complete</span>
+-                            </div>
+-                            <span class="progress-type">Core Java</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+-                                <span class="sr-only">70% complete</span>
+-                            </div>
+-                            <span class="progress-type">C#</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+-                                <span class="sr-only">70% complete</span>
+-                            </div>
+-                            <span class="progress-type">Python</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
+-                                <span class="sr-only">90% complete</span>
+-                            </div>
+-                            <span class="progress-type">AWS Certified Solutions Architect - Assosiate</span>
+-                        </div>
+-                         <div class="progress">
+-                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+-                                <span class="sr-only">70% complete</span>
+-                            </div>
+-                            <span class="progress-type">Performance Testing - Jmeter</span>
+-                        </div>
+-                        <div class="progress">
+-                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
+-                                <span class="sr-only">50% complete</span>
+-                            </div>
+-                            <span class="progress-type">Network Analysis tools</span>
+-                        </div>
+-                    </div>
+-                </div>
+-            </div>
+-        </div>
+-        
+-    </section>
+-    <footer class="container-fluid">
+-        <div id="footer-details" class="row">
+-            <div class="col-sm-4">
+-                <h5 class="uppercase general-sub">About</h5>
+-                <p class="inline-block">
+-                    Full Stack QA with Front-End Development skills in everything from UI / API test automation, testing highly integrated applications hosted on AWS to Designing BDD test
+-                </p>
+-            </div>
+-            <div class="col-sm-4">
+-                <h5 class="uppercase general-sub">Download</h5>
+-                <p class="inline-block">
+-                    Need a printable version of my CV? Download it here.
+-                    <a href="docs/CV.pdf" target="_blank" class="cv-pdf">
+-                        <i class="fa fa-download" aria-hidden="true"></i>
+-                        <span class="sr-only">Download link.</span>
+-                    </a>
+-                </p>
+-            </div>
+-            <div class="col-sm-4">
+-                <h5 class="uppercase general-sub">Social</h5>
+-                <ul class="list-inline social-links">
+-                    <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+-                            <span class="sr-only">Facebook</span>
+-                        </a>
+-                    </li>
+-                    <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+-                            <span class="sr-only">Twitter</span>
+-                        </a>
+-                    </li>
+-                    <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+-                            <span class="sr-only">LinkedIn</span>
+-                        </a>
+-                    </li>
+-                    <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+-                            <span class="sr-only">Pinterest</span>
+-                        </a>
+-                    </li>
+-                    <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+-                            <span class="sr-only">Instagram</span>
+-                        </a>
+-                    </li>
+-                    <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-youtube" aria-hidden="true"></i>
+-                            <span class="sr-only">YouTube</span>
+-                        </a>
+-                    </li>
+-                </ul>
+-            </div>
+-        </div>
+-    </footer>
+-</body>
+-</html>
+-
+Index: ../../../script.js
+===================================================================
+diff --git a/../../../script.js b/../../../script.js
+deleted file mode 100644
+--- a/../../../script.js	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,16 +0,0 @@
+-function sendMail(contactForm) {
+-    emailjs.send("gmail", "rosie", {
+-        "from_name": contactForm.name.value,
+-        "from_email": contactForm.emailaddress.value,
+-        "project_request": contactForm.projectsummary.value
+-    })
+-    .then(
+-        function(response) {
+-            console.log("SUCCESS", response);
+-        },
+-        function(error) {
+-            console.log("FAILED", error);
+-        }
+-    );
+-    return false;  // To block from loading a new page
+-}
+Index: ../../../docs/sample HTML code.txt
+===================================================================
+diff --git a/../../../docs/sample HTML code.txt b/../../../docs/sample HTML code.txt
+deleted file mode 100644
+--- a/../../../docs/sample HTML code.txt	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,85 +0,0 @@
+-sample html snippets
+-==============
+-form
+-      <form action="https://formdump.codeinstitute.net/" method="post">
+-==========
+-color code
+-        <!--  HTML5  will create colorpicker component  which enables user to select and enter color code  -->
+-        <label for="color">Your favorite color </label>
+-        <input type="color" id="color" name="color" placeholder="What is your favorite color">
+-        <br/>
+-===========
+-upload files
+-        <!--  the file type will allow you to upload and submit a file. Include the "multiple' attribute to select more than one file. -->
+-        <input type="file" name="file" value="file" id="file" multiple> 
+-        <br/> 
+-
+-===========
+-Age text box
+-        <!-- This number input field allows only numbers greater than or equal to 18 and less than or equal to 99. It will also prevent submitting any odd number in the same range.
+-          Try to submit these numbers and see what happens:  1, 19, 39, 100 -->
+-
+-        <label for="number">Your age</label>
+-        <input type="number" id="number" name="number" placeholder="Age"  step="2" min="18" max="99">
+-        <br/> 
+-
+-==============
+-check box
+-
+-  <input type="checkbox" name="first_skill" value="HTML"> I code in HTML <br>
+-
+-===========
+-radio button 
+-
+-        <label for="red">Red</label>
+-        <input type="radio" name="color" value="red" id="red">
+-===========
+-Drop down
+-
+- <label for="fields-of-study">Select Field of Study:</label>
+-        <select name="fields-of-study" id="fields-of-study">
+-          <option value="math">Math</option>
+-          <option value="science">Science</option>
+-          <option value="finance">Finance</option>
+-        </select>
+-================
+-Slider
+-
+-        <!-- This input field is displayed as a slider. It enables to set minimum and maximum point. -->
+-        <label for="volume">Volume</label>
+-        <input type="range" name="volume" min="0" max="10"> 
+-        <br />
+-        
+-===========
+-fieldset
+-
+- The <fieldset> element is usually followed by a <legend> element which defines a caption for <fieldset> element.
+- 	 <fieldset>
+-          <legend>Personal details</legend>
+-          <label for="name">Your name:</label>
+-          <input type="text" name="name" id="name">
+-          <label for="age">Your age:</label>
+-          <input type="number" name="age" id="age">
+-        </fieldset>
+-================
+-IFrames
+- <iframe src="https://www.codeinstitute.net/"  width="600" height="800">
+-        <!--this paragraph will appear if browser does not support iframes -->
+-           <p>Your browser does not support iframes.</p>
+-      </iframe>
+-===========
+-The Submit button or cancel button can be represented as an <input> type or <button> type
+-   <span>Send!</span> 
+-        </button>
+------------ or -------------
+- <input type="submit" value="Confirm">
+-        <button type="Send">Send</button>
+-
+-=========
+-Cancel
+-        <input type="submit" value="Send it!">
+-        <!-- Reset button will clear all entered data -->
+-        <input type="reset" value="Cancel">
+-         
+-
+-======================
+Index: ../../../js/github-information.js
+===================================================================
+diff --git a/../../../js/github-information.js b/../../../js/github-information.js
+deleted file mode 100644
+--- a/../../../js/github-information.js	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,80 +0,0 @@
+-function userInformationHTML(user) {
+- return `
+- <h2>${user.name}
+- <span class="small-name">
+- (@<a href="${user.html_url}" target="_blank">${user.login}</a>)
+- </span>
+- </h2>
+- <div class="gh-content">
+- <div class="gh-avatar">
+- <a href="${user.html_url}" target="_blank">
+- <img src="${user.avatar_url}" width="80" height="80" alt="${user.login}" />
+- </a>
+- </div>
+- <p>Followers: ${user.followers} - Following ${user.following} <br> Repos: ${user.public_repos}</p>
+- </div>`;
+-}
+- 
+-function repoInformationHTML(repos) {
+- if (repos.length == 0) {
+- return `<div class="clearfix repo-list">No repos!</div>`;
+- }
+- // all the repositry of the user is added to the listItemsHTML variable
+- var listItemsHTML = repos.map(function(repo) {
+- return `<li>
+- <a href="${repo.html_url}" target="_blank">${repo.name}</a>
+- </li>`;
+- });
+- 
+- return `<div class="clearfix repo-list">
+- <p>
+- <strong>Repo List:</strong>
+- </p>
+- <ul>
+- ${listItemsHTML.join("\n")}
+- </ul>
+- </div>`;
+-}
+- 
+-function fetchGitHubInformation(event) {
+-// to clear the user data after a search added in last video (bug fix)
+- $("#gh-user-data").html("");
+- $("#gh-repo-data").html("");
+- // take user data from the input textbox and pass to username vairable
+- var username = $("#gh-username").val();
+- if (!username) {
+- $("#gh-user-data").html(`<h2>Please enter a GitHub username</h2>`);
+- return;
+- }
+- // while the user is typing the data show loading
+- $("#gh-user-data").html(
+- `<div id="loader">
+- <img src="images/loader.gif" alt="loading..." />
+- </div>`);
+- // after data is typed
+- $.when(
+- $.getJSON(`https://api.github.com/users/${username}`),
+- $.getJSON(`https://api.github.com/users/${username}/repos`)
+- ).then(
+- function(firstResponse, secondResponse) {
+- var userData = firstResponse[0];
+- var repoData = secondResponse[0];
+- $("#gh-user-data").html(userInformationHTML(userData));
+- $("#gh-repo-data").html(repoInformationHTML(repoData));
+- },
+- function(errorResponse) {
+- if (errorResponse.status === 404) {
+- $("#gh-user-data").html(
+- `<h2>No info found for user ${username}</h2>`);
+- } else if (errorResponse.status === 403) {
+- var resetTime = new Date(errorResponse.getResponseHeader('X-RateLimit-Reset') * 1000);
+- $("#gh-user-data").html(`<h4>Too many requests, please wait until ${resetTime.toLocaleTimeString()}</h4>`);
+- } else {
+- console.log(errorResponse);
+- $("#gh-user-data").html(
+- `<h2>Error: ${errorResponse.responseJSON.message}</h2>`);
+- }
+- });
+-}
+- 
+-$(document).ready(fetchGitHubInformation);
+\ No newline at end of file
+Index: ../../../github.html
+===================================================================
+diff --git a/../../../github.html b/../../../github.html
+deleted file mode 100644
+--- a/../../../github.html	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,102 +0,0 @@
+-<!DOCTYPE html>
+-<html>
+-<head>
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+-    <link rel="stylesheet" href="github-styles.css" type="text/css">
+-    <link rel="stylesheet" href="style.css" type="text/css" />
+-
+-
+-    <meta name="viewport" content="width=device-width, initial-scale=1">
+-</head>
+-
+-<body>
+-    <header class="container-fluid">
+-        <div class="row">
+-            <a href="index.html">
+-                <div class="col-md-4 logo"></div>
+-            </a>
+-            <div class="col-md-8">
+-                <div class="row bg-color-name-title">
+-                    <div class="heading">
+-                        <h1 class="name">Debora Baddipudi</h1>
+-                        <h2 class="title"> Full Stack Developer</h2>
+-                    </div>
+-                </div>
+-                <div class="row">
+-                    <ul id="nav" class="list-inline clearfix">
+-                        <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
+-                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+-                        </li>
+-                        <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem">
+-                            <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+-                        </li>
+-                        <li class="col-xs-6 col-sm-2 ui-menu-color-contact menuitem">
+-                            <a href="contact.html" class="hvr-sweep-to-bottom"><i class=" fa fa-commenting-o " aria-hidden="true "></i><span>Contact</span></a>
+-                        </li>
+-                        <li class="col-xs-6 col-sm-2 ui-menu-color-interests menuitem ">
+-                            <a href="interest.html" class="hvr-sweep-to-bottom"><i class="fa fa-users " aria-hidden="true "></i><span>Interests</span></a>
+-                        </li>
+-                        <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem ">
+-                            <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github " aria-hidden="true "></i><span>GitHub</span></a>
+-                        </li>
+-                        <li class="col-xs-6 col-sm-2 ui-menu-color-download menuitem ">
+-                            <a href="docs/CV.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download " aria-hidden="true "></i><span>Download CV</span></a>
+-                        </li>
+-                    </ul>
+-                </div>
+-            </div>
+-        </div>
+-    </header>
+-   <section class="container-fluid">
+-        <div class="row bg-color-contact">
+-            <div class="col">
+-                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+-                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
+-
+-                <div class="center-form">
+-                    <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+-                    <div id="gh-user-data"></div>
+-                    <div id="gh-repo-data"></div>
+-
+-                </div>
+-
+-            </div>
+-        </div>
+-
+-    </section>
+-    <footer class="container-fluid ">
+-        <div id="footer-details " class="row ">
+-            <div class="col-sm-4 ">
+-                <h5 class="uppercase general-sub ">About</h5>
+-                <p class="inline-block ">
+-                    Full Stack QA with Front-End Development skills in everything from UI / API test automation, testing highly integrated applications hosted on AWS to Designing BDD test
+-                </p>
+-            </div>
+-            <div class="col-sm-4 ">
+-                <h5 class="uppercase general-sub ">Download My CV</h5>
+-                <p class="inline-block ">
+-                    Need a printable version of my CV? Download it here.
+-                    <a href="docs/CV.pdf"  target="_blank" target="_blank" class="cv-pdf "><i class="fa fa-download " aria-hidden="true "></i></a>
+-                </p>
+-            </div>
+-            <div class="col-sm-4 ">
+-                <h5 class="uppercase general-sub ">MySocial</h5>
+-                <ul class="list-inline social-links ">
+-                    <li><a target="_blank " href="# "><i class="fa fa-facebook "></i></a></li>
+-                    <li><a target="_blank " href="# "><i class="fa fa-twitter "></i></a></li>
+-                    <li><a target="_blank " href="# "><i class="fa fa-linkedin "></i></a></li>
+-                    <li><a target="_blank " href="# "><i class="fa fa-pinterest "></i></a></li>
+-                    <li><a target="_blank " href="# "><i class="fa fa-instagram "></i></a></li>
+-                    <li><a target="_blank " href="# "><i class="fa fa-youtube "></i></a></li>
+-                </ul>
+-            </div>
+-        </div>
+-    </footer>
+-    
+-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+-    <script src="js/github-information.js"></script>
+-</body>
+-
+-</html>
+\ No newline at end of file
+Index: ../../../style.css
+===================================================================
+diff --git a/../../../style.css b/../../../style.css
+deleted file mode 100644
+--- a/../../../style.css	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,599 +0,0 @@
+-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+-.bg-color-name-title {
+-    background-color: #676767;
+-}
+-
+-.bg-color-three-reasons {
+-    background-color: #fff;
+-}
+-
+-.bg-color-personal-info {
+-    background-color: #f4f4f4;
+-}
+-
+-.bg-color-work-history {
+-    background-color: #9b59b6;
+-}
+-
+-.ui-menu-color-home {
+-    background-color: #e67e22;
+-}
+-
+-.ui-menu-color-resume {
+-    background-color: #9b59b6;
+-}
+-
+-.ui-menu-color-contact {
+-    background-color: #3498db;
+-}
+-
+-.ui-menu-color-download {
+-    background-color: #525252;
+-}
+-.ui-menu-color-interests{
+-background-color: burlywood;
+-}
+-.ui-menu-color-github{
+-	background-color: skyblue;
+-}
+-
+-.row-table {
+-    display: table;
+-}
+-
+-.section-column {
+-    display: table-cell;
+-    padding: 0 30px 30px;
+-    float: none;
+-}
+-
+-.section-heading {
+-    font-family: "Exo", sans-serif;
+-    font-weight: 300;
+-    margin-top: 25px;
+-    margin-bottom: 40px;
+-}
+-
+-/* ----------------------------------------Special paddings/margins/text */
+-
+-h1,
+-h2,
+-h3,
+-h4 {
+-    margin: 0;
+-}
+-
+-.uppercase {
+-    text-transform: uppercase;
+-}
+-
+-.general-sub {
+-    font-family: "Exo", sans-serif;
+-    font-weight: 300;
+-    color: #fafafa;
+-}
+-
+-.inline-block {
+-    display: inline-block;
+-}
+-
+-.row-table {
+-    display: table;
+-}
+-
+-.section-column {
+-    display: table-cell;
+-    padding: 0 30px 30px;
+-    float: none;
+-}
+-
+-.history-heading,
+-.section-heading {
+-    font-family: "Exo", sans-serif;
+-    font-weight: 300;
+-    margin-top: 25px;
+-    margin-bottom: 40px;
+-}
+-
+-/*--------------------------------------------Heading*/
+-
+-header {
+-    margin: 0;
+-}
+-
+-.heading {
+-    margin-left: 50px;
+-}
+-
+-.logo {
+-    background: url("https://www.pngitem.com/pimgs/m/140-1403795_job-search-skills-women-work-in-computer-hd.png");
+-    background-position: center;
+-    background-repeat: no-repeat;
+-    background-size: cover;
+-    min-height: 360px;
+-    transition: all .5s ease-in-out;
+-    -moz-transition: all .5s ease-in-out;
+-    -webkit-transition: all .5s ease-in-out;
+-}
+-
+-.name {
+-    font-family: "Exo", sans-serif;
+-    font-weight: 100;
+-    font-size: 46px;
+-    margin-top: 50px;
+-    color: #fff;
+-}
+-
+-.title {
+-    font-family: "Roboto", sans-serif;
+-    font-weight: 200;
+-    font-size: 28px;
+-    margin-top: 20px;
+-    margin-bottom: 90px;
+-    color: #fff;
+-}
+-
+-.list-inline-item:not(:last-child) {
+-    margin: 0;
+-}
+-
+-.menucontainer {
+-    font-size: 0;
+-}
+-
+-#nav li {
+-    font-size: 14px;
+-    padding: 0;
+-}
+-
+-#nav {
+-    margin: 0;
+-}
+-
+-.menuitem {
+-    height: 120px;
+-    text-align: center;
+-    padding: 0;
+-}
+-
+-.menuitem a {
+-    width: 100%;
+-    text-decoration: none;
+-    color: #fff;
+-    height: 120px;
+-}
+-
+-.menuitem a i {
+-    padding-top: 22px;
+-    display: block;
+-    color: #fafafa;
+-    font-size: 26px;
+-}
+-
+-.menuitem span {
+-    display: block;
+-    width: 100%;
+-    padding-top: 5px;
+-    text-align: center;
+-    text-transform: uppercase;
+-    font-size: 14px;
+-    font-weight: 300;
+-    letter-spacing: 2px;
+-}
+-
+-/*--------------------------------------------Hover.css*/
+-
+-.hvr-sweep-to-bottom:before {
+-    background: rgba(0, 0, 0, 0.2);
+-    height: 120px;
+-}
+-
+-/* ----------------------------------------Footer */
+-
+-footer {
+-    background-color: #525252;
+-    color: #fafafa;
+-    min-height: 120px;
+-    margin: 0;
+-}
+-
+-.cv-pdf i {
+-    font-size: 18px;
+-    color: #fafafa;
+-    text-align: center;
+-    padding-left: 5px;
+-    transition: all 0.35s ease-in-out;
+-    -moz-transition: all 0.35s ease-in-out;
+-    -webkit-transition: all 0.35s ease-in-out;
+-    -o-transition: all 0.35s ease-in-out;
+-}
+-
+-.cv-pdf i:hover {
+-    color: #e84610;
+-}
+-
+-.social-links {
+-    padding-bottom: 15px;
+-}
+-
+-.social-links li a i {
+-    width: 32px;
+-    height: 32px;
+-    padding: 12px 0;
+-    border-radius: 50%;
+-    font-size: 13px;
+-    line-height: 7px;
+-    text-align: center;
+-    color: #fafafa;
+-    background: #8f8f8f;
+-    transition: all 0.35s ease-in-out;
+-    -moz-transition: all 0.35s ease-in-out;
+-    -webkit-transition: all 0.35s ease-in-out;
+-    -o-transition: all 0.35s ease-in-out;
+-}
+-
+-.social-links li a i:hover {
+-    background: #e84610;
+-}
+-
+-#footer-details {
+-    padding: 20px;
+-}
+-
+-/* ----------------------------------------Three Reasons */
+-
+-.three-reasons-icon {
+-    font-size: 26px;
+-    color: #e67e22;
+-}
+-
+-.three-reasons-heading {
+-    margin-bottom: 15px;
+-}
+-
+-/* ----------------------------------------Personal Info */
+-
+-.personal-info-item {
+-    margin-bottom: 20px;
+-    display: block;
+-    clear: both;
+-}
+-
+-.personal-info-item .key,
+-.personal-info-item .value {
+-    padding-right: 8px;
+-    display: inline-block;
+-}
+-
+-.personal-info-item .key p,
+-.personal-info-item .value p {
+-    margin: 0;
+-}
+-
+-.personal-info-item .key {
+-    width: 30%;
+-    margin-right: 21px;
+-    padding-top: 2px;
+-    vertical-align: top;
+-}
+-
+-.personal-info-item .key p {
+-    font-weight: 700;
+-}
+-
+-.personal-info-item .value {
+-    position: relative;
+-    width: 60%;
+-}
+-
+-/* ----------------------------------------Skills */
+-
+-.progress {
+-    position: relative;
+-    height: 25px;
+-    margin-bottom: 4px;
+-}
+-
+-.progress-type {
+-    position: absolute;
+-    left: 0px;
+-    font-weight: 400;
+-    padding: 3px 30px 2px 10px;
+-    color: #fafafa;
+-    background-color: rgba(25, 25, 25, 0.2);
+-}
+-
+-.progress-section {
+-    margin: 40px 20px;
+-}
+-
+-/* ----------------------------------------Work History */
+-
+-.history-heading {
+-    color: #fafafa;
+-    margin-bottom: 50px;
+-}
+-
+-.timeline-item {
+-    padding: 4em 2em 0em 2em;
+-    position: relative;
+-    color: #fafafa;
+-    border-left: 1px solid;
+-}
+-
+-.timeline-item p {
+-    padding: 0;
+-    margin: 0;
+-}
+-
+-.timeline-item:before {
+-    content: attr(data-dates);
+-    position: absolute;
+-    left: 2.5em;
+-    top: 3em;
+-    display: block;
+-    font-family: "Exo", sans-serif;
+-    font-weight: 500;
+-    font-size: 0.8em;
+-    padding: 0;
+-    margin: 0;
+-}
+-
+-.timeline-item:after {
+-    width: 12px;
+-    height: 12px;
+-    display: block;
+-    top: 2.4em;
+-    position: absolute;
+-    left: -6px;
+-    border-radius: 12px;
+-    content: '';
+-    background: #fafafa;
+-}
+-
+-.history-items {
+-    margin-bottom: 30px;
+-}
+-
+-
+-/*--------------------------------------------Map*/
+-div#map {
+-    min-height: 360px;
+-}
+-
+-/* ------------- github styling -------*/
+-@import url('https://fonts.googleapis.com/css?family=Roboto');
+-
+-br {
+-  display: block;
+-  line-height: 1.6em;
+-}
+-.center-form{
+-    margin-left: 200px;
+-}
+-
+-ol,
+-ul {
+-  list-style: none;
+-}
+-
+-input,
+-textarea {
+-  -webkit-font-smoothing: antialiased;
+-  -webkit-text-size-adjust: 100%;
+-  -ms-text-size-adjust: 100%;
+-  -webkit-box-sizing: border-box;
+-  -moz-box-sizing: border-box;
+-  box-sizing: border-box;
+-  outline: none;
+-}
+-
+-blockquote,
+-q {
+-  quotes: none;
+-}
+-
+-blockquote:before,
+-blockquote:after,
+-q:before,
+-q:after {
+-  content: '';
+-  content: none;
+-}
+-
+-strong,
+-b {
+-  font-weight: bold;
+-}
+-
+-table {
+-  border-collapse: collapse;
+-  border-spacing: 0;
+-}
+-
+-img {
+-  border: 0;
+-  max-width: 100%;
+-}
+-
+-
+-
+-/* page structure */
+-
+-#search-area {
+-  display: block;
+-  max-width: 70%;
+-  margin: 0 auto;
+-  background: #fff;
+-  padding: 15px 25px;
+-  -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+-  -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+-  box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
+-  -webkit-border-radius: 4px;
+-  -moz-border-radius: 4px;
+-  border-radius: 4px;
+-}
+-
+-#gh-api-data {
+-  display: block;
+-  padding: 25px 0;
+-}
+-
+-#loader {
+-  display: block;
+-  width: 200px;
+-  height: 200px;
+-  margin: 0 auto;
+-}
+-
+-
+-/* page content styles */
+-
+-.small-name {
+-  font-size: 0.75em;
+-  color: #a9a9a9;
+-  font-style: italic;
+-}
+-
+-.avi {
+-  float: left;
+-  margin-right: 7px;
+-  margin-bottom: 7px;
+-}
+-
+-.avi img {
+-  border: 1px solid #ccc;
+-  padding: 3px;
+-}
+-
+-.repo-list {
+-  display: block;
+-  clear: both;
+-  width: 100%;
+-}
+-
+-.repo-list ul {
+-  font-size: 1.2em;
+-}
+-
+-.repo-list ul li {
+-  display: block;
+-}
+-
+-.repo-list ul li a {
+-  font-weight: bold;
+-  padding: 6px 9px;
+-  display: block;
+-  float: left;
+-  margin-right: 10px;
+-  margin-bottom: 10px;
+-  text-decoration: none;
+-  border: 1px solid #356492;
+-  -webkit-border-radius: 3px;
+-  -moz-border-radius: 3px;
+-  border-radius: 3px;
+-  color: #fff;
+-  background-color: #3673af;
+-  background-image: -webkit-gradient(linear, left top, left bottom, from(#5597d8), to(#3673af));
+-  background-image: -webkit-linear-gradient(top, #5597d8, #3673af);
+-  background-image: -moz-linear-gradient(top, #5597d8, #3673af);
+-  background-image: -ms-linear-gradient(top, #5597d8, #3673af);
+-  background-image: -o-linear-gradient(top, #5597d8, #3673af);
+-  background-image: linear-gradient(top, #5597d8, #3673af);
+-}
+-
+-.repo-list ul li a:hover {
+-  background-color: #396895;
+-  background-image: -webkit-gradient(linear, left top, left bottom, from(#4b87c2), to(#396895));
+-  background-image: -webkit-linear-gradient(top, #4b87c2, #396895);
+-  background-image: -moz-linear-gradient(top, #4b87c2, #396895);
+-  background-image: -ms-linear-gradient(top, #4b87c2, #396895);
+-  background-image: -o-linear-gradient(top, #4b87c2, #396895);
+-  background-image: linear-gradient(top, #4b87c2, #396895);
+-}
+-
+-.repo-list ul li a:active {
+-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+-  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+-}
+-
+-.repo-list ul li a span {
+-  font-family: "Courier New", Courier, "Lucida Typewriter", monospace;
+-  font-size: 0.9em;
+-}
+-
+-/* input field */
+-
+-#gh-username {
+-  display: block;
+-  padding: 5px 8px;
+-  font-size: 1.4em;
+-  color: #666;
+-  max-width: 550px;
+-  margin-bottom: 15px;
+-}
+-
+-#gh-submit {
+-  display: inline-block;
+-  padding: 8px 18px;
+-  font-size: 14px;
+-  font-weight: bold;
+-  color: #444;
+-  text-decoration: none;
+-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+-  background-color: #eaeaea;
+-  background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+-  background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+-  background-image: -ms-linear-gradient(top, #fafafa, #eaeaea);
+-  background-image: -o-linear-gradient(top, #fafafa, #eaeaea);
+-  background-image: linear-gradient(#fafafa, #eaeaea);
+-  border-radius: 3px;
+-  border: 1px solid #ddd;
+-  border-bottom-color: #c5c5c5;
+-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+-}
+-
+-#gh-submit:hover {
+-  background-color: #dadada;
+-  background-image: -webkit-linear-gradient(#eaeaea, #dadada);
+-  background-image: -moz-linear-gradient(#eaeaea, #dadada);
+-  background-image: -ms-linear-gradient(top, #eaeaea, #dadada);
+-  background-image: -o-linear-gradient(top, #eaeaea, #dadada);
+-  background-image: linear-gradient(#eaeaea, #dadada);
+-  border-color: #ccc #ccc #b5b5b5;
+-}
+-
+-#gh-submit:active {
+-  background-color: #dadada;
+-  background-image: none;
+-  border-color: #b5b5b5;
+-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+-  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
+-}
+-/* -------- contact us page styling -----------*/
+-/*--------------------------------------------Contact*/
+-
+-.contact-heading {
+-    font-family: "Exo", sans-serif;
+-    font-weight: 300;
+-    margin-top: 25px;
+-    margin-bottom: 20px;
+-}
+-
+-
+-.center-form {
+-    padding-top: 10px;
+-    margin: 0 auto;
+-    max-width: 70%;
+-}
+-
+-button[type="submit"] {
+-    margin-top: 15px;
+-    margin-bottom: 20px;
+-    background-color: #e84610;
+-    color: #fafafa;
+-}
+\ No newline at end of file
+Index: ../../../index.html
+===================================================================
+diff --git a/../../../index.html b/../../../index.html
+deleted file mode 100644
+--- a/../../../index.html	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
++++ /dev/null	(revision 94871f3e5d21bcd9c19e8543010894329aa0d2d5)
+@@ -1,212 +0,0 @@
+-<!DOCTYPE html>
+-<html>
+-  <head>
+-    <meta charset="utf-8">
+-    <meta name="viewport" content="width=device-width">
+-    <title>Resume</title>
+-		    <meta charset="UTF-8">
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+-    <link rel="stylesheet" href="style.css" type="text/css"/>
+-  </head>
+-  <body>
+-	<header>
+-			<div class="row no-gutters">
+-				<a href="index.html" class="col-md-4 logo">	
+-				</a>
+-				<div class="col-md-8">
+-					<div class="row no-gutters bg-color-name-title">
+-							<div class="col heading">
+-								<h1 class="name">Deborah Baddipudi</h1>
+-								<h2 class="title">Full Stack QA</h2>
+-							</div>
+-					</div>
+-					<div class="row no-gutters">
+-						<div class="col">
+-							<ul id="nav" class="list-inline menucontainer">
+-								<!-- there will be 2 onlist by defualt for mobil and 4 on anything higer than medium-->
+-								<li class="col-6 col-sm-2 ui-menu-color-home list-inline-item menuitem">
+-									<a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+-								</li>
+-								<li class="col-6 col-sm-2 ui-menu-color-resume list-inline-item menuitem">
+-									<a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+-								</li>
+-							 <li class="col-6 col-sm-2 ui-menu-color-contact list-inline-item menuitem">
+-                  <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-address-book"></i><span>Contact</span></a>
+-                </li>
+-									<li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
+-									<a href="interest.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interest</span></a>
+-								</li>
+-							 <li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem">
+-                  <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github"></i><span>GitHub</span></a>
+-                </li>
+-								<li class="col-6 col-sm-2 ui-menu-color-download list-inline-item menuitem">
+-									<a href="docs/CV.pdf"  target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+-								</li>
+-							</ul>
+-						</div>
+-					</div>
+-				</div>
+-			</div>
+-		</header>
+-		<section>
+-				<div class="row">
+-						<div class="col-md-4 bg-color-personal-info section-column">
+-							<div class="row">
+-											<div class="col-12">
+-													<h3 class="section-heading uppercase">
+-															Personal Info
+-													</h3>
+-											</div>
+-							</div>
+-							<div class="personal-info-item">
+-									<div class="key">
+-											<p class="uppercase">
+-												Name:
+-											</p>
+-									</div>
+-									<div class="Value">
+-											<p>
+-												Deborah Baddipudi
+-											</p>
+-									</div>
+-							</div>
+-								<div class="personal-info-item">
+-									<div class="key">
+-											<p class="uppercase">
+-												Address:
+-											</p>
+-									</div>
+-							</div>
+-								<div class="personal-info-item">
+-									<div class="key">
+-											<p class="uppercase">
+-												Phone:
+-											</p>
+-									</div>
+-									<div class="Value">
+-											<p>
+-												437-299-6571
+-											</p>
+-									</div>
+-							</div>
+-								<div class="personal-info-item">
+-									<div class="key">
+-											<p class="uppercase">
+-												Email:
+-											</p>
+-									</div>
+-									<div class="Value">
+-											<p>
+-												 deboraswaroop.baddipudi@gmail.com
+-											</p>
+-									</div>
+-							</div>
+-						</div>
+-						<div class="col-md-8 bg-color-three-reasons section-column">
+-							<div class="row">
+-								<div class="col">
+-									<h3 class="section-heading uppercase">About me</h3>
+-								</div>
+-							</div>
+-							<div class="row">
+-								<div class="col-10 offset-1 offsetsm-0 col-sm-4 col-md6">
+-									<div class="row">
+-										<div class="col-2 uppercase">
+-											<i class="three-reasons-icons fa fa-question" aria-hidden="true"></i>
+-										</div>
+-										<div class="col-10">
+-											<h4 class="three-reasons-heading uppercase">What did i do?</h4>
+-											<p>I'm a skilled QA Professional with technical skills of Front-end technology, Development Languages, Database, Performace testing , UI and API automation tesitng and With ability to test complex systems hosted on AWS and Business skills to comeup with testable BDD test</p>
+-										</div>
+-								</div>
+-							</div>
+-							<div class="col-10 offset-1 offsetsm-0 col-sm-4 col-md6">
+-									<div class="row">
+-										<div class="col-2 uppercase">
+-											<i class="three-reasons-icons fa fa-thumbs-up" aria-hidden="true"></i>
+-										</div>
+-										<div class="col-10">
+-											<h4 class="three-reasons-heading uppercase">How do i do it?</h4>
+-											<p>I follow form as well as function. I know that the aesthetics of effective Test Methodoligies combined with technical skills of development combine to create a great user experience.</p>
+-									</div>
+-								</div>
+-								</div>
+-								<div class="col-10 offset-1 offsetsm-0 col-sm-4 col-md6">
+-									<div class="row">
+-										<div class="col-2 uppercase">
+-											<i class="three-reasons-icons fa fa-bolt" aria-hidden="true"></i>
+-										</div>
+-										<div class="col-10">
+-											<h4 class="three-reasons-heading uppercase">Why hire me?</h4>
+-											<p>
+-										I work quickly and effectively in getting things built and working across the stack.I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.
+-									</p>
+-									</div>
+-								</div>
+-								</div>
+-						</div>
+-					</div>
+-		</div>
+-		</section>
+-		<footer class="container-fluid">
+-			<div id="footer-details" class="row">
+-				<div class="col-sm-4">
+-					<h5 class="uppercase general-sub">About</h5>
+-					<p class="inline-block"> ISTQB Certified Test Professional with optimal testing strategies. Helps teams produce exceptional
+-products by offering in-depth quality assurance support. Open and clear
+-communicator with good multitasking skills, organized nature and strong
+-attention to detail. Fully versed in complete SDLC.
+-</p>
+-				</div>
+-				<div class="col-sm-4">
+-						<h5 class="uppercase general-sub">Download</h5>
+-							<p class="inline-block"> Need a printable version on CV? Download here.<a href="docs/CV.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i><span class="sr-only">Download link.</span></a></p>
+-				</div>
+-				<div class="col-sm-4">
+-						<h5 class="uppercase general-sub">Social</h5>
+-						<ul class="list-inline social-links">
+-							<li class="list-inline-item">
+-								<a target="_blank" href="#">
+-									<i class="fa fa-facebook" aria-hidden="true"></i>
+-									<span class="sr-only">FaceBook</span>
+-								</a>
+-							</li>
+-							 <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+-                            <span class="sr-only">Twitter</span>
+-                        </a>
+-                </li>
+-															<li class="list-inline-item">
+-								<a target="_blank" href="https://www.linkedin.com/in/debora-swaroop-bb94184b/">
+-									<i class="fa fa-linkedin" aria-hidden="true"></i>
+-									<span class="sr-only">Linkedin</span>
+-								</a>
+-							</li>
+-							 <li class="list-inline-item">
+-                        <a target="_blank" href="#">
+-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+-                            <span class="sr-only">Pinterest</span>
+-                        </a>
+-                </li>
+-								<li class="list-inline-item">
+-									<a target="_blank" href="#">
+-										<i class="fa fa-instagram" aria-hidden="true"></i>
+-										<span class="sr-only">Instagram</span>
+-								</a>
+-							</li>
+-							<li class="list-inline-item">
+-									<a target="_blank" href="#">
+-										<i class="fa fa-youtube" aria-hidden="true"></i>
+-										<span class="sr-only">YouTube</span>
+-								</a>
+-							</li>
+-						</ul>
+-				</div>
+-			</div>
+-		</footer>
+-    <script src="script.js"></script>
+-  </body>
+-</html>
