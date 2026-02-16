@@ -18,8 +18,9 @@ public class ApiSteps {
     private final APIClient apiClient = new APIClient();
     private String requestPayload;
 
-    @Given("a pet payload with json from path {string}")
-    public void a_pet_payload_with_json_from_path(String jsonName) {
+    @Given("I pass a payload with json from path {string}")
+    public void i_pass_a_payload_with_json_from_path(String jsonName) {
+        // Write code here that turns the phrase above into concrete actions
         requestPayload = JsonFileLoader.load(jsonName+".json");
     }
     @Given("I update the pet payload with status {string}")
