@@ -32,22 +32,10 @@ public class APIClient {
     /**
      * Send POST request with optional JSON updates
      */
-    public String post(String endpoint, String jsonFile, Map<String, String> updates) {
+    public String post(String endpoint, String jsonPayload, Map<String, String> updates) {
 
         String fullUrl = buildUrl(endpoint);
-
-        String json = JsonFileLoader.load(jsonFile);
-        JsonNode root = JsonUtility.parse(json);
-
-        if (updates != null) {
-            updates.forEach((key, value) ->
-                    JsonUtility.update(root, key, value)
-            );
-        }
-
-        String updatedBody = JsonUtility.toJson(root);
-
-        return api.executeRequestAsString("POST", fullUrl, updatedBody);
+        return api.executeRequestAsString("POST", fullUrl, jsonPayload);
     }
 
     /**

@@ -6,8 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="73662dd0-7a7e-47d3-a54b-0d71b2fe6bb9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/client/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/client/APIClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/JsonFileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/JsonFileLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/sample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/sample.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-api-test-project-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/client/APIClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/client/APIClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/sample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/sample.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/JsonFileLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/JsonFileLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/C:/Users/19055/Downloads/Debora Baddipudi_CV.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/Recit.docx" beforeDir="false" />
@@ -71,19 +79,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: sample.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in com.db.api.bdd.testing.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/SourceRepo/PetstoreAPI/my-api-test-project&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/SourceRepo/UI-SeleniumJava/Java_API_Base/api-cucumber-template/api-cucumber-template/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: sample.executor": "Run",
+    "JUnit.All in com.db.api.bdd.testing.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "optimizingJsonLoaderFromBDD",
+    "last_opened_file_path": "E:/SourceRepo/PetstoreAPI/my-api-test-project",
+    "onboarding.tips.debug.path": "E:/SourceRepo/UI-SeleniumJava/Java_API_Base/api-cucumber-template/api-cucumber-template/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\resources" />
@@ -141,7 +149,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="optimizingJsonLoaderFromBDD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -154,20 +174,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/config/ProjectConfig.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/ApiSteps.java</url>
-          <line>11</line>
-          <properties class="steps.ApiSteps">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
