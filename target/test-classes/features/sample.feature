@@ -1,18 +1,17 @@
 Feature: API Template Validation
 
-  Scenario: 01 Create a new pet successfully
-  Given I pass a payload with json from path 'createPet'
-    When I send POST request to "/pet"
-#    Then the response status code should be 200
-#    Then the response should contain pet name "doggie"
-#    And the response should contain status "available"
-
- Scenario: 02 Create a new petstore successfully
- Given I pass a payload with json from path 'createStore'
-   When I send POST request to "/store/order"
+  Scenario: 01 Successfully update a user by username
+    Given I call "user" endpoint with http method "PUT"
+    And I set path parameter "username" to "Debora"
+    And I load body from file "user/createUser.json"
+    When I execute the request
+    Then the status code should be 200
+    And the response body should contain "\"code\":200"
 
 
-
-  Scenario: 03 Create a new petstore successfully
-    Given I update the jsonpayload 'createStore' for field 'quantity' with value '120'
-    When I send POST request to "/store/order"
+  Scenario: 02 Get user by username
+    Given I call "user" endpoint with http method "GET"
+    And I set path parameter "username" to "Debora"
+    When I execute the request
+    Then the status code should be 200
+    And the response body should contain "Debora"

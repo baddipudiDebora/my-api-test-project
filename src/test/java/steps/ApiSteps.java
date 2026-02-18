@@ -15,51 +15,45 @@ import utils.JsonFileLoader;
 import java.io.IOException;
 
 public class ApiSteps {
-    private static final String NAME_PATTERN = "\"name\":\"%s\"";
-    private static final String STATUS_PATTERN = "\"status\":\"%s\"";
-    private static final String ID_PATTERN = "\"id\":%s";
 
-    private String currentResponse;
-    private final APIClient apiClient = new APIClient();
-    private String requestPayload;
+    private final APIClient client = new APIClient();
 
-    @Given("I pass a payload with json from path {string}")
-    public void i_pass_a_payload_with_json_from_path(String jsonName) throws IOException {
-        // Write code here that turns the phrase above into concrete actions
-        requestPayload = JsonFileLoader.load(jsonName+".json");
-    }
-    @Given("I update the jsonpayload {string} for field {string} with value {string}")
-    public void i_update_the_jsonpayload_for_field_with_value(String jsonName, String key, String valueToUpdate) throws JsonProcessingException {
-       System.out.println("Json name"+jsonName+"   Updating payload with key: " + key + " and value: " + valueToUpdate);
-        requestPayload = updateJsonPayload(ensureJsonExtension(jsonName), key, valueToUpdate);
+    @Given("I call {string} endpoint with http method {string}")
+    public void iCallEndpointWithMethod(String endpointName, String method) {
+        client.withEndpoint(endpointName)
+                .withMethod(method);
     }
 
-    private String updateJsonPayload(String jsonFileName, String key, String value) throws JsonProcessingException {
-        JsonNode updatedJson = JsonFileLoader.loadAndUpdate(jsonFileName, key, value);
-        return JsonUtility.toJson(updatedJson);
+    @Given("I set path parameter {string} to {string}")
+    public void iSetPathParam(String name, String value) {
+        client.withPathParam(name, value);
     }
 
-    private String ensureJsonExtension(String fileName) {
-        return fileName.endsWith(".json") ? fileName : fileName + ".json";
+    @Given("I set query parameter {string} to {string}")
+    public void iSetQueryParam(String name, String value) {
+        client.withQueryParam(name, value);
     }
 
-    @When("I send GET request to {string}")
-    public void sendGetRequest(String endpoint) {
-        currentResponse = apiClient.get(endpoint);
+    @Given("I load body from file {string}")
+    public void iLoadBodyFromFile(String fileName) {
+        client.withJsonBodyFromFile(fileName, null);
     }
 
-    @When("I send POST request to {string}")
-    public void sendPostRequest(String endpoint) {
-        currentResponse = apiClient.post(endpoint, requestPayload, null);
+    @When("I execute the request")
+    public void iExecuteTheRequest() {
+        client.execute();
     }
 
-    @When("I send DELETE request to {string}")
-    public void sendDeleteRequest(String endpoint) {
-        currentResponse = String.valueOf(apiClient.delete(endpoint));
+    @Then("the status code should be {int}")
+    public void theStatusCodeShouldBe(int expected) {
+        org.junit.jupiter.api.Assertions.assertEquals(expected, client.getStatusCode());
     }
-    @Then("the response should contain pet name {string}")
-    public void the_response_should_contain_pet_name(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        currentResponse.contains(string);
+
+    @Then("the response body should contain {string}")
+    public void bodyShouldContain(String expected) {
+        org.junit.jupiter.api.Assertions.assertTrue(
+                client.getBody().contains(expected),
+                "Body did not contain: " + expected
+        );
     }
 }
