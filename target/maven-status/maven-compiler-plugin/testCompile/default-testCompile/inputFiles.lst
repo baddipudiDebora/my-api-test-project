@@ -1,6 +1,8 @@
 E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\java\client\APIClient.java
 E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\java\config\AppConfig.java
 E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\java\config\ProjectConfig.java
+E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\java\endpoints\EndpointDefinition.java
+E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\java\endpoints\EndpointRegistry.java
 E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\java\hooks\TestHooks.java
 E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\java\runners\TestRunner.java
 E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\java\steps\ApiSteps.java

@@ -1,7 +1,9 @@
-utils\JsonFileLoader.class
 client\APIClient.class
 steps\ApiSteps.class
 config\ProjectConfig.class
-config\AppConfig$AppSettings.class
+endpoints\EndpointRegistry.class
 config\AppConfig.class
+utils\JsonFileLoader.class
+config\AppConfig$AppSettings.class
+endpoints\EndpointDefinition.class
 hooks\TestHooks.class

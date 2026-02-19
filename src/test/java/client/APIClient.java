@@ -85,17 +85,11 @@ public class APIClient {
     public APIClient execute() {
         String resolvedUrl = applyPathParams(fullUrl);
         resolvedUrl = applyQueryParams(resolvedUrl);
-
-        logRequest(resolvedUrl);
-
         api.executeRequest(method, resolvedUrl, requestBody);
-
-        logResponse();
-
         return this;
     }
 
-    // -------------------------
+    // --------------git st-----------
     // THEN / accessors
     // -------------------------
 
@@ -156,35 +150,4 @@ public class APIClient {
         return sb.toString();
     }
 
-    // -------------------------
-    // Logging
-    // -------------------------
-
-    private void logRequest(String resolvedUrl) {
-        System.out.println("----- API REQUEST -----");
-        System.out.println("METHOD: " + method);
-        System.out.println("URL: " + resolvedUrl);
-
-        if (!pathParams.isEmpty()) {
-            System.out.println("PATH PARAMS: " + pathParams);
-        }
-
-        if (!queryParams.isEmpty()) {
-            System.out.println("QUERY PARAMS: " + queryParams);
-        }
-
-        if (requestBody != null) {
-            System.out.println("BODY: " + requestBody);
-        }
-
-        System.out.println("------------------------");
-    }
-
-    private void logResponse() {
-        System.out.println("----- API RESPONSE -----");
-        System.out.println("STATUS: " + api.getStatusCode() + " " + api.getStatusDescription());
-        System.out.println("HEADERS: " + api.getResponseHeaders());
-        System.out.println("BODY: " + api.getBody());
-        System.out.println("-------------------------");
-    }
 }
