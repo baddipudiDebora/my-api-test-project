@@ -7,22 +7,6 @@
     <list default="true" id="73662dd0-7a7e-47d3-a54b-0d71b2fe6bb9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/client/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/client/APIClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/endpoints/EndpointRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/endpoints/EndpointRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/TestHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/TestHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ApiSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/JsonFileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/JsonFileLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/JsonSamplers/createPet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/JsonSamplers/createStore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/JsonSamplers/store/createStore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/sample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/sample.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonSamplers/createPet.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonSamplers/createStore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/client/APIClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/client/APIClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/endpoints/EndpointRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/endpoints/EndpointRegistry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/sample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/sample.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hooks/TestHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hooks/TestHooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/JsonFileLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/JsonFileLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/C:/Users/19055/Downloads/Debora Baddipudi_CV.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/Recit.docx" beforeDir="false" />
