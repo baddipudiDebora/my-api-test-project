@@ -3,6 +3,7 @@ package steps;
 import client.APIClient;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
@@ -13,6 +14,8 @@ import org.db.apicore.json.JsonUtility;
 import utils.JsonFileLoader;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ApiSteps {
 
@@ -55,5 +58,12 @@ public class ApiSteps {
                 client.getBody().contains(expected),
                 "Body did not contain: " + expected
         );
+    }
+
+    @Given("I update the payload {string} for field {string} with value {string}")
+    public void iUpdateThepayloadPetPostPetForFieldQuantityWithValue(String fileName,String fieldPath, String value) {
+        Map<String, String> updates = new HashMap<>();
+        updates.put(fieldPath, value);
+        client.withJsonBodyFromFile(fileName,updates);
     }
 }

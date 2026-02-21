@@ -14,7 +14,7 @@ public class JsonFileLoader {
     private static final String BASE_PATH = "JsonSamplers/";
 
     public static String load(String fileName) {
-        String fullPath = BASE_PATH + fileName;
+        String fullPath = BASE_PATH + fileName +".json";
 
         try (InputStream is = JsonFileLoader.class
                 .getClassLoader()

@@ -8,6 +8,7 @@ import org.db.apicore.core.RestAssuredHandler;
 import org.db.apicore.json.JsonUtility;
 import com.fasterxml.jackson.databind.JsonNode;
 import io.restassured.http.Headers;
+import org.db.apicore.reporting.Reporter;
 import utils.JsonFileLoader;
 
 import java.util.HashMap;
@@ -129,6 +130,7 @@ public class APIClient {
         for (var entry : pathParams.entrySet()) {
             updated = updated.replace("{" + entry.getKey() + "}", entry.getValue());
         }
+        Reporter.info("URL: " + updated);
         return updated;
     }
 

@@ -17,28 +17,13 @@
         <restassured.version>5.5.0</restassured.version>
         <jackson.version>2.17.2</jackson.version>
     </properties>
-
-    <repositories>
-        <!-- For GitHub packages -->
-        <repository>
-            <id>github-db</id>
-            <url>https://maven.pkg.github.com/baddipudiDebora/Java_API_Base</url>
-        </repository>
-        <!-- For public dependencies like Jackson -->
-        <repository>
-            <id>central</id>
-            <url>https://repo.maven.apache.org/maven2</url>
-        </repository>
-    </repositories>
-
     <dependencies>
         <!-- Base API Framework -->
         <dependency>
             <groupId>org.db</groupId>
             <artifactId>java-api-core-framework</artifactId>
-            <version>1.5.0</version>
+            <version>1.9.0</version>
         </dependency>
-
         <!-- Cucumber -->
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -108,6 +93,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
     <build>
         <plugins>
             <plugin>
@@ -123,5 +110,14 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>github-db</id>
+            <url>https://maven.pkg.github.com/baddipudiDebora/Java_API_Base</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
 
 </project>

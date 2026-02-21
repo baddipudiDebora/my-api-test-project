@@ -9,19 +9,9 @@ public class EndpointRegistry {
     private static final Map<String, EndpointDefinition> endpoints = new HashMap<>();
 
     static {
-        endpoints.put("user", new EndpointDefinition(
-                "/user/{username}",
-                List.of("GET", "PUT", "DELETE")
-        ));
-
-        endpoints.put("login", new EndpointDefinition(
-                "/user/login",
-                List.of("GET")
-        ));
-
-        endpoints.put("createUser", new EndpointDefinition(
-                "/user}",
-                List.of("PUT")
+        endpoints.put("user", new EndpointDefinition( "/user/{username}", List.of("GET", "PUT", "DELETE") ));
+        endpoints.put("login", new EndpointDefinition( "/user/login", List.of("GET") ));
+        endpoints.put("pet", new EndpointDefinition("/pet", List.of("GET", "PUT", "POST")
         ));
     }
 

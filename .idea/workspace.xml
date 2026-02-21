@@ -8,9 +8,21 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/client/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/client/APIClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/endpoints/EndpointRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/endpoints/EndpointRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hooks/TestHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hooks/TestHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/JsonFileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/JsonFileLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/JsonSamplers/createPet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/JsonSamplers/createStore.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/JsonSamplers/store/createStore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/sample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/sample.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonSamplers/createPet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonSamplers/createStore.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/client/APIClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/client/APIClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/endpoints/EndpointRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/endpoints/EndpointRegistry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/sample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/sample.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hooks/TestHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hooks/TestHooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ApiSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/JsonFileLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/JsonFileLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/C:/Users/19055/Downloads/Debora Baddipudi_CV.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/Recit.docx" beforeDir="false" />
@@ -79,11 +91,14 @@
     &quot;Cucumber Java.Feature: sample.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: 01 Successfully update a user by username.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: 02 Get user by username.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: 03 Successfully delete a user by username.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: 04 Get a new User successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: 04 PUT call with supports primitive values, nested objects, arrays of primitives, and arrays of objects.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Create a new user successfully.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Get user by username.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Successfully update a user by username.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.All in com.db.api.bdd.testing.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.my-api-test-project [install].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -95,13 +110,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\resources\JsonSamplers\store" />
       <recent name="E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\resources\JsonSamplers\user" />
       <recent name="E:\SourceRepo\PetstoreAPI\my-api-test-project\src\test\resources" />
       <recent name="E:\SourceRepo\PetstoreAPI\my-api-test-project\src\main\resources" />
       <recent name="E:\SourceRepo\UI-SeleniumJava\Java_API_Base\api-cucumber-template\api-cucumber-template\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: 01 Successfully update a user by username">
+  <component name="RunManager" selected="Cucumber Java.Feature: sample">
     <configuration name="Feature: sample" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sample.feature" />
@@ -161,15 +177,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Create a new user successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: 03 Successfully delete a user by username" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sample.feature" />
       <option name="GLUE" value="hooks steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-api-test-project" />
-      <option name="NAME_FILTER" value="^Create a new user successfully$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create a new user successfully$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Create a new user successfully" />
+      <option name="NAME_FILTER" value="^03 Successfully delete a user by username$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^03 Successfully delete a user by username$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 03 Successfully delete a user by username" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -181,15 +197,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Successfully update a user by username" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: 04 PUT call with supports primitive values, nested objects, arrays of primitives, and arrays of objects" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sample.feature" />
       <option name="GLUE" value="hooks steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-api-test-project" />
-      <option name="NAME_FILTER" value="^Successfully update a user by username$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successfully update a user by username$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successfully update a user by username" />
+      <option name="NAME_FILTER" value="^04 PUT call with supports primitive values\, nested objects\, arrays of primitives\, and arrays of objects$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^04 PUT call with supports primitive values\, nested objects\, arrays of primitives\, and arrays of objects$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 04 PUT call with supports primitive values, nested objects, arrays of primitives, and arrays of objects" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -203,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: 01 Successfully update a user by username" />
         <item itemvalue="Cucumber Java.Feature: sample" />
+        <item itemvalue="Cucumber Java.Scenario: 04 PUT call with supports primitive values, nested objects, arrays of primitives, and arrays of objects" />
         <item itemvalue="Cucumber Java.Scenario: 02 Get user by username" />
-        <item itemvalue="Cucumber Java.Scenario: Successfully update a user by username" />
-        <item itemvalue="Cucumber Java.Scenario: Create a new user successfully" />
+        <item itemvalue="Cucumber Java.Scenario: 03 Successfully delete a user by username" />
+        <item itemvalue="Cucumber Java.Scenario: 01 Successfully update a user by username" />
       </list>
     </recent_temporary>
   </component>
@@ -239,31 +255,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/config/ProjectConfig.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/ApiSteps.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/ApiSteps.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/client/APIClient.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/client/APIClient.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
