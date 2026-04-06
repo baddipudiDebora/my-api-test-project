@@ -7,6 +7,7 @@
     <list default="true" id="73662dd0-7a7e-47d3-a54b-0d71b2fe6bb9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extent-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extent-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/C:/Users/19055/Downloads/Debora Baddipudi_CV.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../docs/Recit.docx" beforeDir="false" />
@@ -82,11 +83,12 @@
     &quot;Cucumber Java.Scenario: Get user by username.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Successfully update a user by username.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.All in com.db.api.bdd.testing.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.${artifactId} [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.my-api-test-project [install].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;archtypebranch&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/SourceRepo/PetstoreAPI/my-api-test-project&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;E:/SourceRepo/UI-SeleniumJava/Java_API_Base/api-cucumber-template/api-cucumber-template/src/main/java/org/example/Main.java&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
@@ -101,7 +103,7 @@
       <recent name="E:\SourceRepo\UI-SeleniumJava\Java_API_Base\api-cucumber-template\api-cucumber-template\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: sample">
+  <component name="RunManager" selected="Cucumber Java.Scenario: 01 POST with Simple primitive Json payload">
     <configuration name="Feature: sample" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sample.feature" />
@@ -121,15 +123,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: 01 Successfully update a user by username" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: 01 POST with Simple primitive Json payload" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sample.feature" />
       <option name="GLUE" value="hooks steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-api-test-project" />
-      <option name="NAME_FILTER" value="^01 Successfully update a user by username$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^01 Successfully update a user by username$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: 01 Successfully update a user by username" />
+      <option name="NAME_FILTER" value="^01 POST with Simple primitive Json payload$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^01 POST with Simple primitive Json payload$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 01 POST with Simple primitive Json payload" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -141,15 +143,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: 02 Get user by username" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: 02 GET call passing Query Params" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sample.feature" />
       <option name="GLUE" value="hooks steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-api-test-project" />
-      <option name="NAME_FILTER" value="^02 Get user by username$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^02 Get user by username$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: 02 Get user by username" />
+      <option name="NAME_FILTER" value="^02 GET call passing Query Params$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^02 GET call passing Query Params$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 02 GET call passing Query Params" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -161,15 +163,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: 03 Successfully delete a user by username" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: 03 DELETE call passing Query Params" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/sample.feature" />
       <option name="GLUE" value="hooks steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-api-test-project" />
-      <option name="NAME_FILTER" value="^03 Successfully delete a user by username$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^03 Successfully delete a user by username$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: 03 Successfully delete a user by username" />
+      <option name="NAME_FILTER" value="^03 DELETE call passing Query Params$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^03 DELETE call passing Query Params$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 03 DELETE call passing Query Params" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -203,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: 01 POST with Simple primitive Json payload" />
+        <item itemvalue="Cucumber Java.Scenario: 03 DELETE call passing Query Params" />
+        <item itemvalue="Cucumber Java.Scenario: 02 GET call passing Query Params" />
         <item itemvalue="Cucumber Java.Feature: sample" />
         <item itemvalue="Cucumber Java.Scenario: 04 PUT call with supports primitive values, nested objects, arrays of primitives, and arrays of objects" />
-        <item itemvalue="Cucumber Java.Scenario: 02 Get user by username" />
-        <item itemvalue="Cucumber Java.Scenario: 03 Successfully delete a user by username" />
-        <item itemvalue="Cucumber Java.Scenario: 01 Successfully update a user by username" />
       </list>
     </recent_temporary>
   </component>
